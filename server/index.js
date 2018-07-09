@@ -1,8 +1,7 @@
 require('dotenv').config();
 const express = require('express')
     , massive = require('massive')
-    , bodyParser = require('body-parser')
-    , controller = require('./controller');
+    , bodyParser = require('body-parser');
 
 
 const app = express();
