@@ -1,0 +1,64 @@
+.address-title {
+    padding-right: 485px;
+}
+
+.address-input {
+    width: 600px;
+}
+
+.div-around-city-state {
+    display: flex;
+    justify-content: center;
+}
+
+.city-div {
+    padding-right: 255px;
+}
+
+.city-title {
+    padding-right: 100px;
+}
+
+.state-title {
+    padding-right: 100px;
+}
+
+.zip-div {
+    padding-right: 425px;
+}
+
+.zip-title {
+    padding-right: 100px;
+}
+
+.prev-next-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.previous-button-div {
+    padding-right: 200px;
+}
+
+.previous-button {
+    height: 35px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 3px;
+    background: #3B5249;
+    font-weight: 600;
+    color: white;
+}
+
+.nextstep-button {
+    height: 35px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 3px;
+    background: #3B5249;
+    font-weight: 600;
+    color: white;
+}

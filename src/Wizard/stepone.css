@@ -1,0 +1,72 @@
+.whole-div {
+    margin-top: 0;
+    background: #F6F0F0;
+    height: 100vh;
+}
+
+.div-around-h2-button {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 135px;
+}
+
+.cancel-button {
+    margin-top: 15px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 3px;
+    background: #FEC2C2;
+    font-weight: 600;
+}
+
+.step-buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons {
+    height: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.name-tag {
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 240px;
+}
+
+.name-input {
+    width: 400px;
+}
+
+.desc-tag {
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 185px;
+}
+
+.desc-input {
+    width: 400px;
+    height: 120px;
+}
+
+
+.next-step {
+    margin-top: 40px;
+    height: 35px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 3px;
+    background: #3B5249;
+    font-weight: 600;
+    color: white;
+}

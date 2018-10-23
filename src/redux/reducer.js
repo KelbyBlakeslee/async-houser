@@ -11,69 +11,66 @@ let initialState = {
     prop_rent: 0
 }
 
+
 const STEP_ONE = 'STEP_ONE'
     , STEP_TWO = 'STEP_TWO'
     , STEP_THREE = 'STEP_THREE'
     , STEP_FOUR = 'STEP_FOUR'
     , STEP_FIVE = 'STEP_FIVE'
-    , HANDLE_PROPERTY = 'HANDLE_PROPERTY'
 
 export default function reducer(state = initialState, action) {
     switch (action.type) {
         case STEP_ONE:
-        const Step_One = state.prop_name && state.prop_desc
-            return Object.assign({}, state, { Step_One: [...state.Step_One, action.payload]})
+            return Object.assign({}, state, { prop_name: action.payload.name, prop_desc: action.payload.description })
         case STEP_TWO:
-        const Step_Two = state.prop_address && state.prop_city && state.prop_state && state.prop_zip
-            return Object.assign({}, state, { Step_Two: [...state.Step_Two, action.payload]})
+            return Object.assign({}, state, { prop_address: action.payload.add, prop_city: action.payload.city, prop_state: action.payload.state, prop_zip: action.payload.zip })
         case STEP_THREE:
-            return Object.assign({}, state , [...state.prop_image, action.payload])
+            return Object.assign({}, state, { prop_image: action.payload })
         case STEP_FOUR:
-        const Step_Four = state.prop_loan && state.prop_mortgage
-            return Object.assign({}, state, {Step_Four: [...state.Step_Four, action.payload]})
+            return Object.assign({}, state, { prop_loan: action.payload.loan, prop_mortgage: action.payload.mortgage })
         case STEP_FIVE:
-            return Object.assign({}, state, [...state.prop_rent, action.payload])
+            return Object.assign({}, state, { prop_rent: action.payload })
     }
     return state;
 }
 
 
-export function nameDesc(property) {
-
+export function nameDesc(name, description) {
     return {
         type: STEP_ONE,
-        payload: property
+        payload: { name, description }
     }
 }
 
-export function propLocation(property) {
+export function propLocation(add, city, state, zip) {
 
     return {
         type: STEP_TWO,
-        payload: property
+        payload: { add, city, state, zip }
     }
 }
 
-export function propImage(property) {
+export function propImage(image) {
 
     return {
         type: STEP_THREE,
-        payload: property
+        payload: image
     }
 }
 
-export function loanMortgage(property) {
+export function loanMortgage(loan, mortgage) {
 
     return {
         type: STEP_FOUR,
-        payload: property
+        payload: { loan, mortgage }
     }
 }
 
-export function Rent(property) {
+export function Rent(rent) {
 
     return {
         type: STEP_FIVE,
-        payload: property
+        payload: rent
     }
 }
+

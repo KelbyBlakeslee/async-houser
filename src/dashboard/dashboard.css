@@ -1,0 +1,155 @@
+.whole-div {
+    background: #F6F0F0;
+    height: 100vh;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+}
+
+.h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-around-add {
+    padding-top: 20px;
+}
+
+.add-button {
+    font-family: 'Open Sans', sans-serif;
+    height: 45px;
+    width: 160px;
+    border: none;
+    border-radius: 3px;
+    background: #8AEA92;
+    font-weight: 900;
+}
+
+.rent-input {
+    height: 25px;
+    width: 60px;
+    margin-top: 18px;
+}
+
+.button-div {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.filter-button {
+    font-family: 'Open Sans', sans-serif;
+    height: 27px;
+    width: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #8AEA92;
+    margin-right: 3px;
+}
+
+.reset-button {
+    font-family: 'Open Sans', sans-serif;
+    height: 27px;
+    width: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #3B5249;
+    color: white;
+    margin-left: 3px;
+}
+
+.horizontal-rule {
+    margin-top: 30px;
+    width: 60vw;
+}
+
+.property-whole-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name-title {
+    padding-right: 15px;
+}
+
+.name-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 580px;
+}
+
+.name-desc {
+   display: flex;
+   justify-content: center;
+   padding-right: 600px; 
+}
+
+
+
+.loan-prop-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 130px;
+    padding-bottom: 0;
+    height: 15px;
+    
+}
+
+.rent-prop-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 130px;
+    padding-bottom: 0;
+    height: 15px;
+}
+
+.address-prop-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 162px;
+    padding-bottom: 0;
+    height: 15px;
+}
+
+.city-prop-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 383px;
+    padding-bottom: 0;
+    height: 15px;
+}
+
+.state-prop-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 111px;
+    padding-bottom: 0;
+    height: 15px;
+}
+
+.zip-prop-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 533px;
+    padding-bottom: 0;
+    height: 15px;
+}
+
+.p-tags {
+    font-weight: 700;
+}
+
+.close-button {
+    margin-left: 550px;
+    border: none;
+    background-color: #F6F0F0;
+    font-weight: 600;
+}

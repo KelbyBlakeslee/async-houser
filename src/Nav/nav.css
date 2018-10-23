@@ -1,0 +1,26 @@
+.nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #519872;
+}
+
+.logo {
+    padding-right: 10px;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-right: 200px;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    width: 80px;
+    height: 50px;
+}

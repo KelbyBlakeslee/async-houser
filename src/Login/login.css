@@ -1,0 +1,54 @@
+.Login-div {
+    padding-top: 200px;
+}
+
+.username-div {
+    padding-top: 20px;
+    padding-right: 250px;
+}
+
+.username-input {
+    height: 20px;
+    width: 400px;
+}
+
+.password-div {
+    padding-top: 20px;
+    padding-right: 250px;
+}
+
+.password-input {
+    height: 20px;
+    width: 400px;
+}
+
+.div-around-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.login-button-div {
+    padding-right: 40px;
+}
+
+.login-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    height: 45px;
+    width: 95px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8AEA92;
+}
+
+.register-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    height: 45px;
+    width: 95px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #3B5249;
+}

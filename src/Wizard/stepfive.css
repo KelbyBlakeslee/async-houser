@@ -1,0 +1,17 @@
+.rent-title {
+    padding-right: 490px;
+}
+
+.rent-input {
+    width: 640px;
+}
+
+.complete-button {
+    height: 35px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 3px;
+    background: #8AEA92;
+    font-weight: 600;
+}
